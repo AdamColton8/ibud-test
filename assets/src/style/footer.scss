@@ -1,0 +1,23 @@
+footer{
+  margin-top: 30px;
+  padding: 20px 0;
+  background: #fff;
+  .center {
+    text-align: center;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      color: #F34A4E;
+      border-bottom: 1px solid #F34A4E;
+      transition: all .275s;
+      &:hover, &:focus{
+        opacity: 0.8;
+        padding-bottom: 2px;
+        border-bottom-color: rgba(243, 74, 95, .5);
+      }
+    }
+  }
+}
